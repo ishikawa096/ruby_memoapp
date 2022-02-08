@@ -35,6 +35,7 @@ end
 
 while flag == 0 do
   flagB = 0
+  file_count = 0
   puts "1(新規メモを作成) 2(既存のメモを編集) 3その他(アプリを閉じる)"
   memo_type = gets.to_i
   if memo_type == 1
